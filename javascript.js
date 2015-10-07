@@ -2,8 +2,6 @@ angular.module('PortalApp')
 
 .controller('gitTestCtrl', ['$scope', '$http', '$q','gitTestFactory', function ($scope, $http, $q, gitTestFactory) {
 
-    // SETUP
-
     // Widget Configuration
     $scope.portalHelpers.config = {
         
